@@ -6,16 +6,185 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_main">
+    <Button
+        android:id="@+id/Hipertensos"
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:text="Hipertensos"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="58dp" />
 
-    <fragment
-        android:id="@+id/nav_host_fragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/mobile_navigation" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Celiacos"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diabeticos"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:text="Limpiar Filtro"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="111dp"
+        android:layout_height="47dp"
+        android:text="HOLA"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="242dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="238dp"
+        android:layout_height="47dp"
+        android:text="Edite el Menu del dia a su gusto"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="178dp" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:text="Editar Comida"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="54dp" />
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/favorite2"
+        android:layout_width="375dp"
+        android:layout_height="147dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:clipToOutline="true"
+        android:background="@drawable/favorite2"
+        android:elevation="4dp"
+        />
+
+
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="375dp"
+        android:height="147dp"
+        android:viewportWidth="375"
+        android:viewportHeight="147"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H375V147H0V0Z"
+                />
+
+            <path
+                android:pathData="M0 0V147H375V0"
+                android:fillColor="#FFFFFF"
+                />
+
+        </group>
+
+    </vector>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/favorite1"
+        android:layout_width="375dp"
+        android:layout_height="147dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:clipToOutline="true"
+        android:background="@drawable/favorite1"
+        android:elevation="4dp"
+        />
+
+
+    <!-- drawable/favorite1.xml -->    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="375dp"
+        android:height="147dp"
+        android:viewportWidth="375"
+        android:viewportHeight="147"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H375V147H0V0Z"
+                />
+
+            <path
+                android:pathData="M0 0V147H375V0"
+                android:fillColor="#FFFFFF"
+                />
+
+        </group>
+
+    </vector>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/favorite3"
+        android:layout_width="375dp"
+        android:layout_height="147dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:clipToOutline="true"
+        android:background="@drawable/favorite3"
+        android:elevation="4dp"
+        />
+
+
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="375dp"
+        android:height="147dp"
+        android:viewportWidth="375"
+        android:viewportHeight="147"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H375V147H0V0Z"
+                />
+
+            <path
+                android:pathData="M0 0V147H375V0"
+                android:fillColor="#FFFFFF"
+                />
+
+        </group>
+
+    </vector>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
